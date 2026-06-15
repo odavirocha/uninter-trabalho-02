@@ -1,0 +1,49 @@
+#formacao-component {
+    min-height: 80dvh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+}
+
+.formacao-content {
+    width: 600px;
+}
+
+.formacao-header { 
+    font-size: 3rem;
+    color: #050505;
+    margin-bottom: 1rem;
+}
+
+.formacao-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.formacao-card {
+    width: 25rem;
+    padding: 0.5rem;
+}
+
+.formacao-card-img {
+    width: 100%;
+    height: 11rem;
+}
+
+.formacao-card-name {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.formacao-card-description {
+    font-size: 0.84rem;
+}
+
+a.formacao-card:hover {
+    scale: calc(105%);
+}

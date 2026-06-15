@@ -1,0 +1,56 @@
+#contato-component {
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+}
+
+.contato-content {
+    width: 600px;
+}
+
+.contato-header { 
+    font-size: 3rem;
+    color: #050505;
+}
+
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 2px;
+    margin-top: 1rem;
+}
+
+.contato-name {
+    padding: 3px;
+    margin-top: 0.5rem;
+}
+
+.contato-email {
+    padding: 3px;
+    margin-top: 0.5rem;
+}
+
+.contato-message {
+    padding: 3px;
+    margin-top: 0.5rem;
+}
+
+.contato-name-input {
+    padding: 3px;
+    margin-top: 0.2rem;
+}
+
+.contato-email-input {
+    padding: 3px;
+    margin-top: 0.2rem;
+}
+
+.contato-message-input {
+    padding: 3px;
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 15rem;
+}

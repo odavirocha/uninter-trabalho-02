@@ -1,0 +1,19 @@
+#sobre-component {
+    min-height: 80dvh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+}
+
+.sobre-text {
+    width: 600px;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.sobre-header { 
+    font-size: 3rem;
+    color: #050505;
+}

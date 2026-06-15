@@ -1,0 +1,49 @@
+#projetos-component {
+    min-height: 80dvh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+}
+
+.projetos-content {
+    width: 600px;
+}
+
+.projetos-header { 
+    font-size: 3rem;
+    color: #050505;
+    margin-bottom: 1rem;
+}
+
+.projetos-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.projetos-card {
+    width: 25rem;
+    padding: 0.5rem;
+    /* background: linear-gradient(180deg, rgb(108, 184, 255), rgb(71, 129, 255)); */
+}
+
+.projetos-card-img {
+    width: 100%;
+    height: 11rem;
+}
+
+.projetos-card-name {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.projetos-card-description {
+    font-size: 0.84rem;
+}
+
+a.projetos-card:hover {
+    scale: calc(105%);
+}
