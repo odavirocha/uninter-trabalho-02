@@ -25,7 +25,6 @@
 .projetos-card {
     width: 25rem;
     padding: 0.5rem;
-    /* background: linear-gradient(180deg, rgb(108, 184, 255), rgb(71, 129, 255)); */
 }
 
 .projetos-card-img {
@@ -46,4 +45,14 @@
 
 a.projetos-card:hover {
     scale: calc(105%);
+}
+
+@media (max-width: 878px) {
+    .projetos-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+        gap: 1rem;
+        width: 422px;
+    }
 }

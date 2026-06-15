@@ -19,13 +19,13 @@
 .formacao-cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
     margin-top: 1rem;
+    gap: 1rem;
+    width: 860px;
 }
 
 .formacao-card {
-    width: 25rem;
-    padding: 0.5rem;
+    width: 100%;
 }
 
 .formacao-card-img {
@@ -46,4 +46,14 @@
 
 a.formacao-card:hover {
     scale: calc(105%);
+}
+
+@media (max-width: 878px) {
+    .formacao-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+        gap: 1rem;
+        width: 422px;
+    }
 }
