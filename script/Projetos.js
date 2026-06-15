@@ -25,7 +25,7 @@ async function getPinneds() {
         document.querySelector(`#card-projetos-0${index}`).target = '_blank'
         
         // popula os campos do card
-        document.querySelector(`#card-projetos-0${index} .projetos-card-img`).src = `../assets/${repository.id}.png`
+        document.querySelector(`#card-projetos-0${index} .projetos-card-img`).src = `assets/${repository.id}.png`
         document.querySelector(`#name-projetos-card-0${index}`).textContent = repository.name
         document.querySelector(`#description-projetos-card-0${index}`).textContent = repository.description
     })
