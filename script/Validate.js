@@ -75,4 +75,7 @@ document.querySelector(".contato-form").addEventListener("submit", function(even
     if (!validateMessage()) return
 
     alert("Mensagem enviada com sucesso!")
+    nameInput.value = ""
+    emailInput.value = ""
+    messageInput.value = ""
 })
